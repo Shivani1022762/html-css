@@ -1,0 +1,118 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.slider{
+	position: relative;
+	width: 100%;
+	background: #2c3e50; 
+}
+.myslide{
+	height: 650px;
+	display: none;
+	overflow: hidden;
+}
+
+.prev, .next{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-size: 50px;
+	padding: 15px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.1s;
+	user-select: none;
+}
+.prev:hover, .next:hover{
+	color: #00a7ff;
+}
+.next{
+	right: 0;
+}
+.dotsbox{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 20px;
+	cursor: pointer;
+}
+.dot{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+
+.active, .dot:hover{
+	border-color: #00a7ff;
+	
+}
+
+
+.fade {
+ 
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@keyframes fade {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+
+.txt{
+	position: absolute;
+	color: #fff;
+	letter-spacing: 2px;
+	line-height: 35px;
+	top: 40%;
+	left: 15%;
+  	animation-name: position;
+  	animation-duration: 2s;
+	z-index: 1;
+}
+
+
+
+
+@keyframes position {
+  from {top: 15%;}
+  to {top: 40%;}
+}
+
+.txt h1{
+	color: #00a7ff; 
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.txt p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img{
+	transform: scale(1.5, 1.5);
+  	animation-name: zoomin;
+  	animation-duration: 40s;
+}
+@keyframes zoomin {
+	from {transform: scale(1, 1);}
+	to {transform: scale(1.3, 1.3);}
+  }
+
+
+
+ 
