@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(./assets/backimg.png);
+}
+.navbar{
+    background-color:rgb(189 217 231 / 34%);
+}
+.logo{
+    width: 40%;
+    margin-left: 40px;
+  
+}
+.img{
+   height: 80px;
+}
+.nav{
+    width: 40%;
+    
+}
+.navbar-nav { 
+    margin-left: auto; 
+} 
+
+.nav li a{
+    font-size: 24px;
+    font-weight: 800px;
+    color: darkblue;
+    font-weight: bold;
+    margin:5px;
+}
+.btn{
+  margin-left: 20px;
+}
+
+
+.heading h1{
+text-align: center;
+color: darkblue;
+font-size: 40px;
+font-weight: bold;
+padding-top: 40px;
+}
+
+.boxes{
+    margin-top: 30px;
+    margin-bottom: 30px;
+padding:30px
+}
+.mainbox{
+    background-color: aliceblue;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .175);
+    border-radius: 10px;
+}
+.ellips{
+    max-height: 150px;
+    /* height: 100% !important; */
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(191 219 233));
+}
+.head{
+    text-align: center;
+    padding: 20px;
+}
+.head h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.box-imges{
+    margin-top: 6%;
+}
+.img-group{
+    margin-top: 30px;
+}
+.img-group img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
